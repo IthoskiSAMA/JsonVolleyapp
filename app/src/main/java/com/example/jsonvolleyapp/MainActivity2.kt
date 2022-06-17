@@ -18,6 +18,7 @@ class MainActivity2 : AppCompatActivity() {
     }
 
     fun setup(){
+        // Con Volley
         val textView = findViewById<TextView>(R.id.textView)
         val queue = Volley.newRequestQueue(this)
         val url = "https://gorest.co.in/public/v1/users"
